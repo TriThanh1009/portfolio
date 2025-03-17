@@ -36,10 +36,7 @@ const Technical: React.FC = () =>{
                         <span>{tech.title}</span>
                     </div>
                     <div>
-                        {tech.skill.map((item,index)=>(
-                            //<span key={index}>{item}</span>
-                            <div></div>
-                        ))}
+                       
                     </div>
                 </div>
                 ))}
