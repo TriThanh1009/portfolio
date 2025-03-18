@@ -7,9 +7,9 @@ const Technical: React.FC = () => {
     const [technical] = useState([
         {
             title: "Backend",
-            images : ['../../../src/Image/backendlogo/csharplogo.jpg',
-                    '../../../src/Image/backendlogo/nodejslogo.jpg',
-                    '../../../src/Image/backendlogo/sqlserverlogo.jpg'],
+            images : ['/Image/backendlogo/csharplogo.jpg',
+                    '/Image/backendlogo/nodejslogo.jpg',
+                    '/Image/backendlogo/sqlserverlogo.jpg'],
             skills: [
                 {
                     Framework: ['ASP.NET', 'ASP.NET Core API', 'ASP.NET MVC', '.NET Framework'],
@@ -20,10 +20,10 @@ const Technical: React.FC = () => {
         },
         {
             title: "Frontend",
-            images : ['../../../src/Image/frontendlogo/htmllogo.jpg',
-                    '../../../src/Image/frontendlogo/csslogo.jpg',
-                    '../../../src/Image/frontendlogo/tslogo.jpg',
-                    '../../../src/Image/frontendlogo/jslogo.jpg'],
+            images : ['/Image/frontendlogo/htmllogo.jpg',
+                    '/Image/frontendlogo/csslogo.jpg',
+                    '/Image/frontendlogo/tslogo.jpg',
+                    '/Image/frontendlogo/jslogo.jpg'],
             skills: [
                 {
                     Framework: ['React', 'React.js', 'Angular'],
@@ -35,10 +35,10 @@ const Technical: React.FC = () => {
         },
         {
             title: "Other",
-            images : ['../../../src/Image/otherlogo/vscodelogo.jpg',
-                '../../../src/Image/otherlogo/vslogo.jpg',
-                '../../../src/Image/otherlogo/gitlogo.jpg',
-                '../../../src/Image/otherlogo/dockerlogo.jpg'],
+            images : ['/Image/otherlogo/vscodelogo.jpg',
+                '/Image/otherlogo/vslogo.jpg',
+                '/Image/otherlogo/gitlogo.jpg',
+                '/Image/otherlogo/dockerlogo.jpg'],
             skills: [
                 {
                     Tools: ['Git', 'Docker', 'VS Code', 'Visual Studio'],
