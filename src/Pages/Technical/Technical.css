@@ -1,7 +1,9 @@
 /* Tổng thể container */
 .technical-container {
     background: linear-gradient(135deg, #212529 0%, #343a40 100%);
-    min-height: 100vh;
+    min-height: auto;
+    min-width: auto;
+    border-radius: 30px;
 }
 
 /* Tiêu đề chính */

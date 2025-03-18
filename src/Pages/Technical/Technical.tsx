@@ -12,7 +12,7 @@ const Technical: React.FC = () => {
                     '/Image/backendlogo/sqlserverlogo.jpg'],
             skills: [
                 {
-                    Framework: ['ASP.NET', 'ASP.NET Core API', 'ASP.NET MVC', '.NET Framework'],
+                    Framework: ['ASP .NET', 'ASP .NET Core API', 'ASP .NET MVC', '.NET Framework'],
                     ORM: ['Entity Framework', 'Linq'],
                     Database: ['Stored Procedures', 'Functions', 'Transaction', 'Trigger', 'Query Statement'],
                 },
@@ -29,7 +29,7 @@ const Technical: React.FC = () => {
                     Framework: ['React', 'React.js', 'Angular'],
                     Libraries: ['Tailwind CSS', 'Bootstrap 5'],
                     UIUX: ['Material UI'],
-                    StateManagement: ['Redux Toolkit', 'Hook', 'NgRx', 'BehaviorSubject', 'RxJS'],
+                    StateManagement: ['Hook', 'NgRx', 'Behavior Subject'],
                 },
             ],
         },

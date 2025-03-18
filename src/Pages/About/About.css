@@ -2,6 +2,9 @@
     width: 15rem;
     border-radius: 20rem;
 }
-.about-infor{
+.text-color{
     color: white;
+}
+.about-container{
+    background-color: #282424;
 }
