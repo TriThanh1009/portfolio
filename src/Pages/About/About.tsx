@@ -6,7 +6,7 @@ const About: React.FC = () =>{
         <div className="about-container">
             <div className="d-flex flex-row gap-5">
                 <div className="about-image">
-                    <img src="../../../public/thanh.jpg"></img>
+                    <img src="../../../src/assets/thanh.jpg"></img>
                 </div>
                 <div className="about-infor">
                     <p>Nguyễn Trí Thanh, born in 2002, graduated from the University of Saigon. </p>
