@@ -139,7 +139,7 @@ const Layout: React.FC = () => {
             <div className="content flex-grow-1 d-flex flex-column">
                 <div className="layout-img">
                     <img
-                        src="../../../public/Image/thanhdui.jpg" 
+                        src="/Image/thanhdui.jpg" 
                         alt="Background"
                         className="layout-img-background"
                     />

@@ -18,7 +18,7 @@ const About: React.FC = () =>{
 
                         <p>Currently, I am looking for opportunities to work in a professional environment where I can enhance my skills and contribute to real-world projects. </p>
                         
-                        <a href="../../../public/CV-.Net-Developer.pdf" download className="download-btn">
+                        <a href="/CV-.Net-Developer.pdf" download="/CV-.Net-Developer.pdf" className="download-btn">
                             <i className="fas fa-download me-2"></i>
                             Download CV
                         </a>
