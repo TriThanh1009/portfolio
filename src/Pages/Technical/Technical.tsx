@@ -15,6 +15,7 @@ const Technical: React.FC = () => {
                     Framework: ['ASP .NET', 'ASP .NET Core API', 'ASP .NET MVC', '.NET Framework'],
                     ORM: ['Entity Framework', 'Linq'],
                     Database: ['Stored Procedures', 'Functions', 'Transaction', 'Trigger', 'Query Statement'],
+                    Authentication :['Jwt Token','OAuth']
                 },
             ],
         },
@@ -41,7 +42,7 @@ const Technical: React.FC = () => {
                 '/Image/otherlogo/dockerlogo.jpg'],
             skills: [
                 {
-                    Tools: ['Git', 'Docker', 'VS Code', 'Visual Studio'],
+                    Tools: ['Git', 'Docker', 'VS Code', 'Visual Studio','Google Cloud'],
                     SoftSkills: ['Problem-Solving Skills', 'Teamwork & Collaboration', 'Adaptability & Learning', 'Time Management'],
                 },
             ],

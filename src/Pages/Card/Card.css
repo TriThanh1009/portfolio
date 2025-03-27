@@ -1,0 +1,64 @@
+.card{
+    border: 1px solid white;
+    background-color: grey;
+    width: 40rem;
+    height: 25rem;
+}
+.card-name{
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    
+}
+
+.card-website{
+    cursor: pointer;
+}
+
+
+.card-technology-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.card-descriptions-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.card-descriptions-content{
+    
+    margin-left: 10px;
+    margin-bottom: 8px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .project-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .card-name-img img {
+        width: 100%;
+    }
+
+    .card-name {
+        font-size: 1.5rem;
+    }
+
+    .card-technology-title {
+        font-size: 1rem;
+    }
+
+    .tech-list li {
+        font-size: 0.9rem;
+    }
+}

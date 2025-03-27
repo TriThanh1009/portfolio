@@ -8,17 +8,21 @@ const About: React.FC = () =>{
                 <div className="about-image">
                     <img src="/Image/thanh.jpg"></img>
                 </div>
-                <div className="d-flex flex-column">
-                    <div>
-                        <h3 className="text-color">Information</h3>
-                        <p className="text-color">Nguyễn Trí Thanh, born in 2002, graduated from the University of Saigon. </p>                             
-                    </div>
-                    
+                <div className="d-flex flex-column">      
                     <div className="about-term text-color">
-                        <h3 className="text-color">Term</h3>
-                        <p>As a developer, I am eager to enhance my skills, acquire new knowledge, and apply them to real-world projects. </p>
+                        <h3 className="text-color title">About Me</h3>
+                        <p>I'm Thanh, a Web Developer from Saigon.</p>
+                        <p>I have a strong foundation in C#, .NET Core, Angular, and React, with React being my strongest skill, 
+                            along with hands-on experience in web application development during my internship. 
+                            I am passionate about building optimized software solutions, solving problems efficiently, and continuously learning new technologies.</p>
+
+                        <p>Currently, I am looking for opportunities to work in a professional environment where I can enhance my skills and contribute to real-world projects. </p>
+                        
+                        <a href="../../../public/CV-.Net-Developer.pdf" download className="download-btn">
+                            <i className="fas fa-download me-2"></i>
+                            Download CV
+                        </a>
                     </div>
-                    
                 </div>
                 
             </div>
