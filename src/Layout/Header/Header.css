@@ -1,18 +1,21 @@
-/* Header.css */
-
 .header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 10px;
     padding: 10px;
-    background-color: #1a1a1a; /* Dark background as seen in the image */
+    background-color: #1a1a1a; 
+    z-index: 1000; 
 }
 
 .nav-button {
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
-    background-color: #666; /* Default gray color */
+    background-color: #666; 
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -20,9 +23,14 @@
 }
 
 .nav-button:hover {
-    background-color: #888; /* Slightly lighter gray on hover */
+    background-color: #888; 
 }
 
 .nav-button.active {
-    background-color: #007bff; /* Blue color for the active button */
+    background-color: #007bff; 
+}
+
+
+.content {
+    margin-top: 60px;
 }

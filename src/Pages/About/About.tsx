@@ -11,7 +11,7 @@ const About: React.FC = () =>{
                 <div className="d-flex flex-column">      
                     <div className="about-term text-color">
                         <h3 className="text-color title">About Me</h3>
-                        <p>I'm Thanh, a Web Developer from Saigon.</p>
+                        <p>I'm Thanh, a Web Developer from Saigon University.</p>
                         <p>I have a strong foundation in C#, .NET Core, Angular, and React, with React being my strongest skill, 
                             along with hands-on experience in web application development during my internship. 
                             I am passionate about building optimized software solutions, solving problems efficiently, and continuously learning new technologies.</p>

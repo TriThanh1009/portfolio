@@ -145,7 +145,6 @@ const Layout: React.FC = () => {
                     />
                     <div className="layout-img-text">
                         <h1>Hello, I'm <span>Nguyen Tri Thanh</span></h1>
-                        <p>I'm .NET Developer</p>
                     </div>
                 </div>
                 <div
